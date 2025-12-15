@@ -1,0 +1,101 @@
+body{
+   background: hwb(300 84% 15%);
+   margin: 0;
+   padding: 0;
+}
+header{
+    background-color: #3f3639;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+    text-shadow: 10px 5px 5px #8a7e87;
+    border-radius: 0 0px 10px 10px;
+}
+.bottom{
+  background-color: #503f4a;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #8a7e87;
+  color: #fff;
+  margin: 18px;
+  padding: 18px;
+  text-decoration: none;
+}
+.div{
+ display: flex;
+ background-color: rgb(160, 118, 137);
+ margin: 50px;
+ padding: 30px;
+ border-radius: 40px;
+ box-shadow: 10px 10px 20px  #8a7e87;
+}
+.img{
+  display: flex;
+  width: 300px;
+  height: 200px;
+  float: right;
+  margin: 0;
+  padding: 0;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px #5c545a;
+} 
+.main {
+      display: flex;
+      margin: 20px;
+      
+    }
+    .food {
+      flex: 80%;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+      border-radius: 10px;
+     
+    }
+    .hipp{
+      flex: 20%;
+      padding: 20px;
+      background-color: #eee;
+      margin-left: 20px; 
+      border-radius: 5px;
+    }
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #695061;
+    }
+    nav li {
+      float: left;
+    }
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 30px;
+      text-decoration: none;
+    }
+    nav li a:hover {
+      background-color: #68455c !important;
+    }
+    footer{
+      background-color: #beb2bb;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    table{
+      border-collapse: collapse;
+      border-radius: 15px;
+      box-shadow: 10px 10px 10px #aa9ea7;
+      border-spacing: 0;
+      overflow: hidden;
+    }
+    td , th{
+      padding: 10px;
+      text-align: center;
+      background-color: #d1c2cd;
+      
+    }
+    
